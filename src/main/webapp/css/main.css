@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;  
+  width: 50%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;  
+}
+
+table tbody tr:nth-child(even){background-color: #f2f2f2;}
+
+table tbody tr:hover {background-color: #207561;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #EBA434;
+  color: white;
+}
+
+.poista{
+	color: red;
+	text-decoration: underline;
+	cursor: pointer;	
+}
+
+.oikealle{
+	text-align: right;	
+}
+
+#uusiAsiakas, #takaisin{
+	color: white;	
+	cursor: pointer;	
+}
+
